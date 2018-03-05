@@ -43,7 +43,7 @@ else
   echo " Login to IBM Cloud, use IBM id to login when prompted - Phase 2."
   echo "################################################################"
   echo ""
-  bx login -a https://api.stage1.ng.bluemix.net --sso
+  bx login -a https://api.ng.bluemix.net
   if [[ "$?" == 1 ]]; then
      echo "Bluemix login failed. Please try again."
      echo ""
